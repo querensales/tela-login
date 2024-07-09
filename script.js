@@ -1,13 +1,13 @@
 document.addEventListener('DOMContentLoaded', function() {
-    var entrarBtn = document.getElementById('entrarBtn');
-    var emailInput = document.getElementById('exampleInputEmail1');
-    var passwordInput = document.getElementById('exampleInputPassword1');
-    var emailError = document.getElementById('emailError');
-    var passwordError = document.getElementById('passwordError');
-    var message = document.getElementById('message');
+    const entrarBtn = document.getElementById('entrarBtn');
+    const emailInput = document.getElementById('exampleInputEmail1');
+    const passwordInput = document.getElementById('exampleInputPassword1');
+    const emailError = document.getElementById('emailError');
+    const passwordError = document.getElementById('passwordError');
+    const message = document.getElementById('message');
 
     entrarBtn.addEventListener('click', function() {
-        var valid = true;
+        let valid = true;
 
         emailError.textContent = '';
         passwordError.textContent = '';
