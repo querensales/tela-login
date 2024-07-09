@@ -55,3 +55,7 @@ section .lado_forms{
     align-items: baseline;
     margin-top: 20px;
 }
+
+.error{
+    color:  #39c48a;
+}
