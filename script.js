@@ -14,13 +14,13 @@ document.addEventListener("DOMContentLoaded", function () {
       emailError.textContent = "Preencha o campo email.";
       valid = false;
     } else if (!validateEmail(emailInput.value.trim())) {
-      emailError.textContent = "Insira o endereço de email válido.";
+      emailError.textContent = "Preencha um endereço de email válido.";
       valid = false;
     }
 
-    if (passwordError.textContent === "") {
-      passwordError.textContent = "Preencha o campo senha";
-      valid = false;
+    if (passwordInput.value.trim() === '') {
+        passwordError.textContent = 'Preencha o campo Senha.';
+        valid = false;
     }
 
     if (!valid) {
