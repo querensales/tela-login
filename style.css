@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    color: #fff;
+}
+
+body{
+    max-width: 100%;
+    height: 100%;
+    background-color: #1f1b29;
+}
+
+header{
+    border-bottom: 1px solid;
+    width: 14vw;
+}
+
+.container-lg{
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+img{
+    margin-top: 20px;
+    width: 450px;
+}
+
+.titulo_login{
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+}
+
+section .lado_forms{
+    background: #2e2840 ;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(87, 86, 86, 0.1);
+    width: 35vw;
+}
+
+.form-control{
+    background:#514769;
+}
+
+.botoes{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 20px;
+}
